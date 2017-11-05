@@ -3,14 +3,15 @@ This is a plugin for the [Jekyll platform][0] to allow gallery/slidshows to be i
 
 ## Why?
 I looked all over for a plugin to create a slideshow. I only found one that was nolonger maintained.
-I only wanted some very simple effects utilizing CSS and Javascript, but not jQuery. This is the result.
+I only wanted some very simple effects utilizing CSS and Javascript, but not jQuery. I also did not
+want to change my workflow, i.e continue using markdown for posts. This is the result.
 
 ## Installation
 Add the plugin to the _plugin folder.
 Add the css and js to your assets folder and include them in your header
 
 ## Usage
-In your makrdown add the following tag
+In your markdown add the following tag
 ```
 {% slideshow /path/to/image/dir %}
 ```
