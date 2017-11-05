@@ -1,5 +1,5 @@
 # Jekyll Slideshow Plugin
-This is a plugin for the [Jekyll platform][jekyllrb.com] to allow gallery/slidshows to be included.
+This is a plugin for the [Jekyll platform][0] to allow gallery/slidshows to be included.
 
 ## Why?
 
@@ -19,3 +19,5 @@ When jekyll sees the slideshow tag it will replace the tag with a div listing al
 * Add image height and width
 * Add thumbnail creation
 * Allow different types of effects
+
+[0]: http://jekyllrb.com
