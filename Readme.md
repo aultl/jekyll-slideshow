@@ -2,11 +2,11 @@
 This is a plugin for the [Jekyll platform][0] to allow gallery/slidshows to be included.
 
 ## Why?
-
+I looked all over for a plugin to create a slideshow. I only found one that was nolonger maintianed. So I wrote my own.
 
 ## Installation
 Add the plugin to the _plugin folder.
-Add the css and js to your assest folder and include them in your header
+Add the css and js to your assets folder and include them in your header
 
 ## Usage
 In your makrdown add the following tag
@@ -15,6 +15,7 @@ In your makrdown add the following tag
 ```
 
 When jekyll sees the slideshow tag it will replace the tag with a div listing all the images (.jpg or .png) in the referenced directory.
+
 ## Todo
 * Add image height and width
 * Add thumbnail creation
