@@ -41,7 +41,7 @@ module Jekyll
         c = 0
         images.each do |i|
           c = c + 1
-          @slideshow = @slideshow + "<div class=\"mySlides fade\"><div class=\"numbertext\">#{c} / #{images.count}</div><img src=\"#{d}/#{i}\" style=\"width=100%\"></div>\n"
+          @slideshow = @slideshow + "<div id=\"img#{c}\" class=\"mySlides fade\"><div class=\"numbertext\">#{c} / #{images.count}</div><img src=\"#{d}/#{i}\" style=\"width=100%\"></div>\n"
         end
           # add controls
           @slideshow = @slideshow + "<a class=\"prev\" onclick=\"plusSlides(-1)\">&#10094;</a>\n<a class=\"next\" onclick=\"plusSlides(1)\">&#10095;</a>"
